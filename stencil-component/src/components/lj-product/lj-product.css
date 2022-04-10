@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 200px;
+    height: 260px;
+    border: 3px solid red;
+    border-radius: 12px;
+    margin: 8px;
+    padding: 8px;
+}
+
+.Product__img {
+    height: 150px;
+    width: 150px;
+}
+
+.Product__h2, .Product__h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Product__h2 {
+    color: red;
+}
+
+.Product__Price {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.Product__Price__span {
+    color: green;
+    font-weight: bolder;
+}
+
+.Product__Price__button {
+    color: black;
+    font-weight: bolder;
+    font-size: 14px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 6px;
+    width: 60px;
+    height: 30px;
+}
+
+.Product__Price__button:hover {
+    background-color: black;
+    color: white;
+}
